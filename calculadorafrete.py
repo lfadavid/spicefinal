@@ -105,9 +105,9 @@ if peso_digitado is not None and rota_digitada is not None:
        
         st.divider()
         
-        st.write("❶ O frete total é calculado: ( **Frete Rota + Taxa NF + ADValorem + Icms )**.")
+        st.write("❶ O **FRETE TOTAL** é calculado pelos campos: ( **Frete Rota + Taxa NF + ADValorem + Icms )**.")
         st.write(f"❷ O Destino é as  **{regiao}** .")
-        st.write(f"❸ O valor da Emissão das Notas Fiscais é de **R$ {taxanf:.2f} reais**.")
+        st.write(f"❸ O valor da Taxa de emissão do CTE é de **R$ {taxanf:.2f} reais**.")
         st.write(f"❹ O Advalorem é de  **{adv:,.2f}%**.")
         st.write(f"❺ O Icms é de **RJ x RJ = 20%** , **RJ x ( SP, MG, PR, SC e RS ) = 12%** .")
         st.write(f"❻ O Tipo da Carga é **{tipo}**.")
